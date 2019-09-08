@@ -1,0 +1,172 @@
+.land-land {
+	width: 100%;
+	height: 475px;
+	margin: 30px 0 100px 0;
+	background-image: url(../img/denglu.png);
+}
+
+.land-cont {
+	border-bottom: 1px solid #cc0e30;
+}
+
+.land-land-cont {
+	width: 345px;
+	height: 360px;
+	background: white;
+	float: right;
+	margin: 20px 150px;
+	padding: 15px 20px;
+}
+
+.land-land-cont .lang-input {
+	width: 100%;
+	height: 40px;
+	line-height: 35px;
+	padding: 2px 0;
+	border: 1px solid #E2E2E2;
+}
+
+.lang-input span {
+	display: inline-block;
+	text-align: center;
+	width: 38px;
+	height: 33px;
+	border-right: 1px solid #e2e2e2;
+}
+
+.lang-inputs {
+	width: 250px;
+	height: 35px;
+	line-height: 14px;
+	border: 0;
+}
+
+.land-cont-btn {
+	width: 105px;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	color: white;
+	display: inline-block;
+	background: red;
+	text-align: center;
+}
+
+.land-cont-submit {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #FF0000;
+}
+
+.land-content span a {
+	display: inline-block;
+}
+
+.land-cont-aletr {
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background: #FFF9F5;
+	border: 1px solid red;
+}
+
+.land-cont-third {
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+}
+
+.land-cont-third img {
+	width: 28px;
+	height: 28px;
+	border-radius: 5px;
+}
+
+
+/*注册页面*/
+
+.logon-land {
+	background: #e93854;
+	width: 100%;
+	height: 475px;
+	margin: 30px 0 100px 0;
+
+}
+
+.logon-cont {
+	height: 475px;
+	background: url(../img/denglu.png) no-repeat;
+	border-bottom: 1px solid #cc0e30;
+}
+
+.logon-land-cont {
+	width: 345px;
+	height: 420px;
+	background: white;
+	float: right;
+	margin: 20px 150px;
+	padding: 15px 20px;
+}
+
+.logon-land-cont .logon-input {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #E2E2E2;
+}
+
+.logon-idcode {
+	display: inline-block;
+	width: 190px;
+	height: 40px;
+	border: 1px solid #E2E2E2;
+}
+
+.logon-idcodes {
+	width: 140px;
+	height: 38px;
+	border: 0;
+}
+
+.logon-idcode span {
+	display: inline-block;
+	text-align: center;
+	width: 35px;
+	height: 37px;
+	line-height: 36px;
+}
+
+.logon-input span {
+	display: inline-block;
+	text-align: center;
+	width: 35px;
+	height: 33px;
+}
+
+.logon-inputs {
+	width: 260px;
+	height: 38px;
+	border: 0;
+}
+
+.logon-cont-btn {
+	width: 105px;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	color: white;
+	display: inline-block;
+	background: red;
+	text-align: center;
+}
+
+.logon-cont-submit {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #FF0000;
+}

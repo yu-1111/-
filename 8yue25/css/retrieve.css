@@ -1,0 +1,116 @@
+.retrieve{
+	height: 560px;
+	width: 650px;
+}
+.retrieve-top{	
+	width: 100%;
+	height: 220px;
+	padding-top: 80px;
+
+}
+.retrieve-bottom{
+	width: 100%;
+	height: 200px;
+	display: none;
+  /*  border: 1px solid red;*/
+}
+.retrieve-bottom.on{
+	display: block;
+}
+.retrieve-top-title{
+	width: 520px;
+	height: 30px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.retrieve-top-title1{
+	width: 550px;
+	height: 24px;
+	color: #E2E2E2;
+	margin: 0 auto;
+}
+.retrieve-top-title1 div{
+	width: 33%;
+}
+.retrieve1{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+	background: #CCCCCC;
+	color: white;
+}
+
+.retrieve2{
+	width: 210px;
+	height: 15px;
+	border-bottom: 3px solid #E2E2E2;
+}
+.retrieve-tel{
+	padding-left: 75px;
+	width: 600px;
+	margin-top: 20px;
+}
+.retrieve-tel-input{
+	width: 300px;
+	height: 40px;
+	margin-right: 15px;
+	border: 1px solid #E2E2E2;
+}
+.retrieve-nzm-input{
+	width: 180px;
+	height: 40px;
+	border: 1px solid #E2E2E2;
+}
+.rieve-nzm-cont{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background: #FF2D52;
+	color: white;
+}
+.retrieve-tell>span{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	background: #FF2D52;
+	color: white;
+	text-align: center;
+	margin-left: 135px;
+}
+
+.retrieve-bottom-left{
+	height: 100%;
+	width: 150px;
+	float: left;
+
+}
+.retrieve-bottom-left-xin{
+	display: inline-block;
+	margin-top: 10px;
+	padding-right: 5px;
+	margin-bottom: 40px;
+}
+.retrieve-bottom-right{
+	width: 360px;
+	height: 100%;
+	float: left;
+
+}
+
+.retrieve-dg>span{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	background: #FF2D52;
+	color: white;
+	text-align: center;
+}
+.retrieve-bottom-right span{
+	line-height: 35px;
+}
+

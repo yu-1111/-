@@ -1,0 +1,59 @@
+
+/*详情官方文档*/
+.ments-title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.ments-conts{
+	width: 100%;
+	
+}
+
+.ments-conts-left{
+	width: 960px;
+	padding: 0 20px;
+}
+.ments-conts-left-tit{
+	width: 100%;
+	height: 620px;
+}
+.ments-conts-left-tit p{
+	width: 100%;
+}
+.ments-conts-left-tit img{
+	width: 640px;
+	height: 400px;
+}
+
+
+
+
+
+/*热门文章*/
+.ments-conts-right{
+	width: 220px;
+}
+.conts-right-tit {
+	display: inline-block;
+	background: #fff9f5;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px 0 15px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.ments-conts-right-cons{
+	width: 220px;
+	padding: 20px 20px 20px 15px;
+}
+.ments-conts-right-cons li{
+	width: 180px;
+	height: 24px;
+}
+.nts-right-cons{
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background: black;
+}

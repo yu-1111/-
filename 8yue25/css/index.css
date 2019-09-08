@@ -1,0 +1,405 @@
+/*主标题*/
+.main-title{
+	height: 60px;
+	font-size: 24px;
+	line-height: 58px;
+	color: #FF2D52;
+	font-weight: bold;
+    border-bottom: 2px solid #FF2D52;
+}
+
+/*特价秒杀*/
+.discount .count-down{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.discount .count-down .time{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	color: #fff;
+	background: #666;
+	text-align: center;
+	line-height: 22px;
+	border-radius: 10px;
+}
+
+/*banner 列表样式*/
+.banner .article{
+	width: 220px;
+	height: 306px;
+	border: 1px solid #CCC;
+	overflow: hidden;
+}
+.article .article-title{
+	border-bottom: 1px solid #CCC;
+	padding: 0 10px;
+	line-height: 32px;
+	background: #fff9f5;
+	color: #000;
+}
+.article-title .more:hover{
+	color: #FF2D52;
+}
+
+.article-lists{
+	padding:0 7px;
+}
+
+.article-lists a{
+	display: inline-block;
+	width: 100%;
+	line-height: 30px;
+}
+.article-lists a:hover{
+	color: #FF2D52;
+}
+
+/*
+banner 轮播样式*/
+.banner-cursoal{
+	width: 780px;
+	height: 306px;
+	position: relative;
+	overflow: hidden;	
+}
+.cursoal-slide{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0;
+}
+.carosoul-btn{
+	position: absolute;
+	display: inline-block;
+	width: 26px;
+	height: 54px;
+	background: rgba(0,0,0,.6);
+	color: #fff;
+	text-align: center;
+    line-height: 54px;	
+    top: 50%;
+    margin-top: -27px;
+    cursor: pointer;
+    
+    /*display: none;*/
+}
+.banner-cursoal .next{
+	right: 0;
+}
+.carosoul-dot{
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -55px;
+}
+.carosoul-dot li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	cursor: pointer;
+	background: rgba(0,255,255,0.7);
+	border-radius: 50%;
+	margin: 0 5px;
+}
+/*轮播小红点*/
+.carosoul-dot li.on{
+	background: red;
+}
+.banner-cursoals,
+.banner-cursoals img{
+	width: 780px;
+	height: 306px;
+  
+}
+
+.discount-count{
+	height: 326px;
+}
+.cursoal-slide img{
+	width: 780px;
+	height: 306px;
+}
+
+/*推荐商品*/
+.recommand-title{
+	height: 60px;
+	
+}
+.recommand-title .recommand-title-con {
+	float: left;
+	width: 20%;
+	height: 100%;
+	line-height: 58px;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+	position: relative;
+}
+.recommand-title .recommand-title-con:hover,
+.recommand-title .recommand-title-con.active{
+	border-color: #FF2D52;
+}
+.recommand-title .recommand-title-con:hover:after,
+.recommand-title .recommand-title-con.active:after{
+	display: inline-block;
+	border: 7px solid transparent;
+	border-bottom-color: #FF2D52;
+	content:'';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -7px;
+}
+.recommand-lists{
+	border: 1px solid #E2E2E2;
+
+}
+.recommand-lists li{
+		width: 20%;
+		float: left;
+		border-right: 1px solid #ccc;
+		padding: 20px;
+}
+.recommand-lists li:last-child{
+	border-right: 0px;
+}
+.recommand-lists li img{
+	width: 200px;
+	height: 200px;
+}
+/*tab切换公共样式*/
+.tab-lists{
+	display: none;
+}
+.tab-lists.active{
+	display: block;
+}
+/*特价秒杀*/
+
+.discount-count .goods-lists{
+	width: 950px;
+    height: 100%;
+ /*   background-color: green;*/
+}
+.discount .goods-lists > li{
+	width:33.333%;
+	height: 163px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	padding:27px 25px ;
+}
+.discount-count .goods-lists .img{
+	width: 108px;
+	height: 107px;
+}
+/*进度条*/
+.progress-box{
+	width: 60px;
+	height: 8px;
+	border: 1px solid #fe9373;
+	border-radius: 4px;
+	display: inline-block;
+}
+.progress-box .progress{
+	width: 50%;
+	background: #fe9373;
+	height: 100%;
+}
+.progress-text{
+	color: #FE9373;
+}
+/*查看更多*/
+.discount-count .show-more{
+	width: 250px;
+	height: 100%;
+	background: #d4e9fa;
+	border-left: 1px solid #ccc;
+	padding: 45px 50px;
+}
+
+.show-more-content{
+	border:1px solid #fff;
+	height: 100%;
+	padding-top: 35px;
+	color: #fff;
+}
+.show-more-content .mores{
+	font-size: 22px;
+	line-height: 50px;
+	display: inline-block;
+	border-bottom: 2px solid #fff;
+}
+.show-more-content .limit{
+	font-size: 30px;
+	margin: 5px;
+}
+.show-more-content .button{
+	background: #a8b5bf;
+	border-color: #a8b5bf;
+	color: #fff;
+	margin-top: 20px;
+}
+.show-more-content .button:hover{
+	background: #d4e9fa;
+	color: #FF2D52;
+}
+.goods-info{
+	padding-left:120px ;
+	margin-bottom: 5px;
+}
+.discount-count .goods-info .title{
+	height: 34px;
+	
+}
+
+/*商品分类楼层*/
+.goods-title-lists{
+	font-size: 14px;
+	line-height: 34px;
+	margin-top: 24px;
+	font-weight: normal;
+
+}
+.goods-title-lists a{
+	color: #000;
+	padding: 0 10px;
+	cursor: pointer;
+	position: relative;
+}
+
+.goods-title-lists a:hover{
+	color: #FF2D52;
+	border: 1
+}
+
+.goods-title-lists a:hover:after{
+	content: '';
+	display: inline-block;
+	border: 10px solid transparent;
+	border-bottom-color: #e8660f;
+	position: absolute;
+	bottom: -7px;
+	left:50% ;
+	margin-left: -10px;
+}
+.goods-floor-list{
+	height: 470px;
+}
+.floor-classify{
+	width: 248px;
+	height: 100%;
+	background: #d4eafb;
+	padding: 18px 20px;
+	
+}
+.floor-classify img {
+	width:210px ;
+
+}
+.goods-floor-list .goods-lists{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding-left: 248px;
+	padding-right: 200px;
+}
+.goods-floor-list .rink{
+	padding: 0 10px;
+	width: 200px;
+	height: 100%;
+	background:#fff;
+}
+.floor-classify-two a{
+	display: inline-block;
+	background: #fff;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	line-height: 62px;
+	text-align: center;
+	margin-top: 8px;
+}
+.floor-classify-two a:hover{
+	background: #FFECEC;
+	color:#FF2D52;
+}
+
+/*排名3*/
+.goods-title-lists .rink{
+	width: 200px;
+	height: 100%;
+	background: #ffffff;
+}
+.red-lists{
+	width: 185px;
+	height: 235px;
+	padding: 15px 17px;
+	border: 1px solid #e2e2e2;
+}
+.red-lists .red-cont{
+	height: 34px;
+	line-height: 18px;
+}
+.red-mane{
+	color: #FF2D52;
+}
+.rink-title{
+	height: 25px;
+	border-bottom: 1px solid #E2E2E2;
+	color: #000;
+	font-size: 14px;
+	line-height: 25px;
+}
+.rink-list{
+	padding: 12px 0px;
+	border-bottom: 1px dashed #E2E2E2;
+}
+
+
+.rink-list img{
+	width: 54px;
+	height: 54px;
+}
+.rink-list-cont{
+	padding-left: 60px;
+}
+.rink-list-cont .title{
+	white-space: nowrap;
+}
+
+//猜我喜欢
+.myLive{
+	height: 360px;
+	width: 100%;
+	border: 1px solid #E2E2E2;
+	border-top: 0;
+	margin-bottom: 20px;
+}
+.myLive .myLive-cont{
+	padding: 12px;
+	height: 350px;
+   
+	border: 1px solid #E2E2E2;
+}
+.myLive .myLive-cont li{
+	border: 1px solid white;
+	height: 100%;
+	width: 20%;
+	line-height: 18px;
+}
+.myLive .myLive-cont img{
+	width: 210px;
+}
+.myLive-contt{
+	margin:15px 0 ;
+	height: 34px;
+}
+.myLive .myLive-cont li:hover{
+	border: 1px solid #E2E2E2;
+}

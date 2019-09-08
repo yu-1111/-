@@ -1,0 +1,223 @@
+.Myshping{
+	height: 60px;
+	margin-bottom: 20px;
+	line-height: 58px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.Myshping .Myshping-cont{
+	display: inline-block;
+	border-bottom: 3px solid #FF0000;
+}
+//中
+.Myshping-centre{
+	height: 685px;
+	/*border: 1px solid red;*/
+}
+.Myshping-centre-title{
+	line-height: 40px;
+	height: 40px;
+	background: #fff9f5;
+	border: 1px solid #E2E2E2;
+}
+.centre-title-left{
+	padding-left: 20px;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.centre-title-right{
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+.centre-title-right a{
+	padding-right: 120px;
+}
+.Myshping-centre-midd{
+	height: 52px;
+	line-height: 50px;
+
+}
+
+/*商品content*/
+.Myshping-centre-chain{
+	width: 100%;
+	border: 1px solid #E2E2E2;
+}
+.centre-chain-one{
+	height: 160px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.centre-chain-one-top{
+	height: 120PX;
+	width: 100%;
+	/*background: #FFF9F5;*/
+	border-bottom: 1px solid #E2E2E2;
+
+}
+.chain-one-top-one-left{
+	float: left;
+	width: 280px;
+	height: 100%;
+}
+.chain-one-top-one-left img{
+	width: 80px;
+	height: 80px;
+}
+.one-left-cont{
+    margin-top: 10px;
+	float: right;
+	width: 180px;
+	height: 34px;
+}
+.top-two-left{
+	display: inline-block;
+	width: 160px;
+	height: 100%;
+	padding: 13px;
+	border: 1px dashed red;
+	position: relative;
+}
+.top-two-right-dation{
+	width: 70px;
+	height: 70px;
+	margin-top: 5px;
+	display: inline-block;
+}
+.top-two-right{
+	width: 220px;
+	height: 80px;
+	float: right;
+	
+}
+.top-two-right-small{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: right;
+	border: 1px solid #E2E2E2;
+}
+.right-small{
+	display: inline-block;
+	width: 20px;
+	height: 100%;
+	border-right:1px solid #E2E2E2 ;
+}
+.right-smalll{
+	display: inline-block;
+	width: 20px;
+	height: 100%;
+	border-left:1px solid #E2E2E2 ;
+}
+.right-smallll{
+	display: inline-block;
+	width: 55px;
+	height: 100%;
+}
+.chain-one-top-one{
+	width: 370px;
+	height: 80px;
+	
+}
+.chain-one-top-two{
+	width: 480px;
+	height: 80px;
+}
+.chain-one-top-two span img{
+	width: 20px;
+	height: 20px;
+	background: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.chain-one-top-sev{
+	width: 270px;
+	height: 80px;
+	/*border: 1px solid chartreuse;*/
+}
+.one-top-sev-right{
+	float: right;
+	width: 110px;
+    height: 70px;
+}
+.centre-chain-one-bottom{
+	width: 100%;
+	height: 40px;
+}
+.centre-titi{
+	height: 40px;
+	line-height: 40px;
+}
+.centre-titi span{
+	float: right;
+	padding: 0 10px;
+}
+
+/*去结算*/
+.my-conten{
+	margin:20px 0 ;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #f7f7f7;
+	border: 1px solid #E2E2E2;
+}
+.my-conten span{
+	
+	padding: 0 10px 0 0;
+}
+.my-conten-sion{
+	display: inline-block;
+	width: 160px;
+	height: 100%;
+	background:#FF2D52 ;
+	color: white;
+}
+.my-conten-inon{
+	display: inline-block;
+	width: 480px;
+	height: 100%;
+	padding-top: 10px;
+	
+	margin-right: 15px;
+}
+.my-conten-inon p{
+	
+	line-height: 20px;
+}
+
+/*猜我喜欢*/
+.Myshping-centre-top{
+	height: 320px;
+	border: 1px solid #E2E2E2;
+	
+}
+.Myshping-centre-top .centre-top{
+	height: 40px;
+	border-bottom: 1px solid #E2E2E2;
+	width: 100%;
+	line-height: 40px;
+	padding: 0 20px;
+	background: #fff9f5;
+}
+
+.centre-top-cont{
+    border: 1px solid white;
+	width: 199px;
+	height: 280px;
+	padding: 20px 10px 10px 10px;
+}
+.centre-top-cont img{
+	width: 180px;
+	height: 180px;
+}
+.centre-top-cont p{
+	margin-bottom: 5px;
+	height: 32px;
+}
+.centre-top-cont:hover{
+		border-left: 1px solid #E2E2E2;
+		border-right: 1px solid #E2E2E2;
+}

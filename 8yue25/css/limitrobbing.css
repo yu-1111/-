@@ -1,0 +1,201 @@
+.buying-title{
+	height: 300px;
+	background: #d7e8e0;
+}
+
+
+
+.buying-contno-title{
+	width: 100%;
+	height: 60px;
+	background: #343434;
+}
+.buying-contli{
+	width: 100%;
+	height: 60px;
+	background: red;
+}
+.buying-contli li{
+	padding-top: 10px;
+	width: 20%;
+	float: left;
+	color: #8b8c8c;
+	text-align: center;
+	background: #343434;
+	border-top: 2px solid #343434;
+	height: 60px;
+	line-height: 18px;
+}
+.buying-contlili{
+	line-height: 40px;
+}
+.buying-contli li:hover{
+	border-top: 2px solid red;
+	background: #121212;
+}
+
+.buying-contno-one{
+	padding-top: 2px;
+	float: 40px;
+	line-height: 40px;
+}
+.buying-contno-one>li{
+	display: inline-block;
+	width: 85px;
+	height: 36px;
+	text-align: center;
+	border-right: 2px solid #CCCCCC;
+	float: left;
+}
+.buying-contno-one>li:first-child{
+	text-align: left;
+}
+.buying-contno-input{
+	margin: 8px 45px;
+	width: 230px;
+	height: 23px;
+	float: right;
+	background: #f5f5f5;
+	border: 1px solid #E2E2E2;
+}
+.buying-contno-input span{
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	line-height: 22px;
+	color: #968e8e;
+	background: #F5F5F5;
+}
+.buying-contno-lists{
+	margin-top: 8px;
+	width: 80px;
+	height: 20px;
+}
+.buying-contno-lists span{
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #CCCCCC;
+}
+.buying-input{
+	width: 195px;
+	height: 17px;
+	margin: 2px 0 2px 2px;
+	border: 0;
+}
+
+
+.buying-contnos-dg{
+	margin-top: 10px;
+}
+.buying-contnos-dgs{
+	/*width: 100%;
+	height: 1400px;*/
+}
+
+.buying-top-two{
+	position: relative;
+	float: left;
+	width:232px;
+	height: 320px;
+	margin-bottom: 20px;
+	border:1px solid #e2e2e2;
+}
+.top-two-toto{
+	width: 210px;
+	margin: 10px;
+	margin-bottom: 0;
+}
+.buying-top-two img{
+	width: 210px;
+	height: 210px;
+	margin-bottom: 5px;
+}
+
+.buying-top-black span{
+	display: inline-block;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	color: white;
+	background: #FF2D52;
+	cursor: default;
+}
+.buying-top-black {
+	height: 40px;
+	line-height: 40px;
+	padding: 2px;
+	width: 233px;
+	margin-top: 11px;
+}
+.buying-top-black-bod{
+	position: absolute;
+	width: 235px;
+	height: 320px;
+	border: 2px solid #FF2D52;
+}
+.bod-buying-top{
+	width:235px;
+	height: 320px;
+	position: absolute;
+	border: 2px solid red;
+	display: none;
+}
+.buying-top-two:hover .bod-buying-top{
+	display: block;
+}
+.buying-top-black-text{
+	width: 77px;
+	height: 36px;
+	float: right;
+	text-align: center;
+	line-height: 36px;
+	background: white;
+	display: inline-block;
+}
+
+.buying-top-over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 235px;
+	height: 320px;
+}
+.buying-top-over span{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 50%;
+	margin-top: 75px;
+	display: inline-block;
+	background: #9b9b9b;
+}
+/*进度条*/
+.progress-box{
+	width: 60px;
+	height: 8px;
+	border: 1px solid #ff92a5;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.progress-box .progress{
+	width: 50%;
+	background: #FF2D52;
+	height: 100%;
+}
+
+.limitbing-botton{
+	padding-top: 25px ;
+	width: 100%;
+	height: 80px;
+}
+.limitbing-botton span{
+	width: 130px;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 3px;
+	display: inline-block;
+	margin: 0 17px;
+}

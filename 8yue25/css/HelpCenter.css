@@ -1,0 +1,90 @@
+.help-main{
+	height: 880px;	
+}
+.help-main-title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.help-main-left{
+	width: 220px;
+	border: 1px solid #E2E2E2;
+}
+.help-main-left>ul>li{
+	border-bottom: 1px solid #E2E2E2;
+	padding-left: 20px;
+	cursor: pointer;
+	position: relative;
+}
+.help-main-left>ul>li>ul>li:hover{
+	color: #FF2D52;
+}
+.help-main-left>ul li span{
+	position: absolute;
+	top: 5px;
+	right: 12px;
+	font-size: 22px;
+	display: inline-block;
+}
+.help-main-left>ul>li .child-ul{
+	background: #fff;
+	display: none;
+}
+.help-main-left>ul>li .child-ul li{
+	color: #000;
+	line-height: 32px;
+}
+
+
+.help-main-left>ul>li>h4{
+	width: 100%;
+	padding: 10px 0;
+}
+
+.help-main-left-1 li:hover{
+	color: #FF2D52;
+}
+
+/*help-main-right购物流程*/
+.help-main-right{
+	width: 960px;
+	height: 830px;
+	padding: 10px 20px;
+	border: 1px solid #E2E2E2;
+}
+.main-right-title{
+	width: 100%;
+	height: 35px;
+	border-bottom: 1px dashed #E2E2E2;
+}
+.main-right-content1{
+	width: 100%;
+	
+	padding-top: 20px;
+	height: 120px;
+	
+}
+.keng b{
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.keng p{
+	line-height: 24px;
+}
+.main-right-content2{
+	width: 100%;
+	height: 180px;
+}
+.main-right-content3{
+	width: 100%;
+	height: 130px;
+}
+.main-right-content4{
+	width: 100%;
+	height: 210px;
+}
+.main-right-content5{
+	width: 100%;
+	height: 110px;
+}

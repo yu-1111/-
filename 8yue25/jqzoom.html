@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		.delete-image {
+			width: 400px;
+			height: 400px;
+		}
+		
+		.jqzoom {
+			position: relative;
+		}
+		
+		.jqzoom .small-img {
+			max-width: 100%;
+			max-height: 100%;
+		}
+		
+		.jqzoom .zoom-pop {
+			width: 200px;
+			height: 200px;
+			background: #fff;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0.6;
+		}
+		
+		.zoom-big {
+			position: absolute;
+			top: 0;
+			right: -350px;
+			width: 400px;
+			height: 400px;
+			overflow: hidden;
+		}
+		
+		.zoom-big img {
+			position: absolute;
+		}
+	</style>
+
+	<body>
+
+		<div class="jqzoom delete-image">
+			<img class="small-img" src="img/mz.jpg" />
+		<!--<div class="zoom-pop"></div>
+			<div class="zoom-big">
+				<img src="img/mz.jpg"/>
+			</div>-->
+		</div>
+	</body>
+
+</html>
+<script src="js/jquery-2.1.0.js"></script>
+<script src="js/jqzoom.js"></script>
+<script>
+	$(".jqzoom").jqzoom({
+		offwidth: 200,
+		offheight: 200
+	})
+</script>
