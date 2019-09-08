@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/public.css" />
+
+	<body>
+		<ul class="navbar-collapse-lists ">
+			<li class="is-active">
+				<a class="glyphicon glyphicon-home">
+					<span class="">家</span>
+				</a>
+				
+			</li>
+			<li>
+				<a>下拉2</a>
+			</li>
+
+		</ul>
+			
+		
+		<div class="content content-mid">
+			<nav class="navbar navbar-default navbar-actiu">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="collapsed navbar-toggle">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					</div>
+
+					<a class="logo pull-left"></a>
+					<div class="navbar-collapse collapse text-center">
+						<ul class="nav navbar-nav navbar-right En-lists">
+							<li>
+								<a class="glyphicon glyphicon-search"></a>
+							</li>
+							<li class="dropdown">
+								<a class="En-lists" data-toggle="dropdown">
+									EN
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu En-lists">
+									<li><a>ES</a></li>
+									<li><a href="">FR</a></li>
+								</ul>
+							</li>
+							<li class="keys"></li>
+						</ul>
+
+						<ul class="nav navbar-nav nav-lists">
+							<li>
+								<a class="link">PRODUCTS</a>
+							</li>
+							<li>
+								<a class="link">CASE STUDIES</a>
+							</li>
+							<li>
+								<a class="link">RESOURCES</a>
+							</li>
+							<li class="link-md">
+								<a class="link link-actiu">ACTIU</a>
+							</li>
+							<li>
+								<a class="link">COMPANY</a>
+							</li>
+							<li>
+								<a class="link">NEWS</a>
+							</li>
+							<li>
+								<a class="link">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="text-center h3 actiu-hide">
+						<a class="glyphicon glyphicon-search pull-right"></a>
+						<div class="actiu-width">ACTIU</div>
+
+					</div>
+				</div>
+			</nav>
+			<!--banner-->
+			<div class="banner">
+				<div class="banner-content text-center">
+					<div class="banner-inline">
+						<p class="text-big">A NOOM DAY</p>
+						<p class="h1">a guide of tips for your well-being</p>
+						<a class="btn more">SEE MORE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--<div class="heading text-center">
+			<div class="container">
+				<h1 class="heading-sub">Much more than just office furniture manufacturers</h1>
+				<h2 class="heading-title">We contribute to improve the well-being of our users with pieces of furniture designed by and for people.</h2>
+			</div>
+		</div>
+		<div class="col-sm-7 col-lg-8">
+			<h4 class="featured__title">Featured Products</h4>
+		</div>-->
+		
+		<div class="furniture">
+			
+			<div class="title text-center">
+				<p class="more">Much more than just office furniture manufacturers</p>
+				<div class="contribute">We contribute to improve the well-being of our users with pieces of furniture designed by and for people.</div>
+			</div>
+			<div class="featured__title">
+					<div class="row">
+						<p class="col-sm-7 col-lg-8">FEATURED PRODUCTS</p>
+					</div>
+					
+			</div>
+			<div class="carousel-box">
+				
+				<div class="carousel">
+					<!--轮播内容-->
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="carousel-caption">
+								
+								<div class="furniture-describe">
+									Noom has been created to humanize contract and work spaces, with a friendly, elegant and differentiated design. It is designed to promote communication and transmit well-being, indispensable in everyday life. Noom fits into very different environments and moments, thanks to its high customisation capacity. 
+								</div>
+								<div class="furniture-img top">
+									<img src="img/noom-img_crop_580_500.jpg"/>
+								</div>
+								<div class="furniture-describe bottom">
+									<a class="h3">Noom</a>
+									<p class="h4">efekw e ffkdsfeiw</p>
+									<div>
+										“Noom fuses artisan upholstery with 3D patterns and seams technologies. It creates an unprecedented geometry from a soft and back to front design capable of generating new sensations in all kinds of spaces” - Alegre Design
+									</div>
+									<a class="btn btn-circle">READ MORE</a>
+								</div>
+								<div class="furniture-img bottom">
+									<img src="img/trim-img2_crop_580_500.jpg"/>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+					<!--轮播按钮-->
+					<!--<a class="left carousel-control">1</a>
+					<a class="right carousel-control">2</a>-->
+					
+					
+				</div>
+				
+			</div>
+		</div>
+	</body>
+
+</html>
+<script src="js/jquery-2.1.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+	$(".navbar-actiu .navbar-toggle").click(function() {
+		
+		if($(this).hasClass('on')){
+				$(this).removeClass('on')
+				$(".content").animate({
+				"marginLeft": 0
+			}, 300)
+		}else{
+			$(this).addClass('on')
+				$(".content").animate({
+				"marginLeft": '50%'
+			}, 300)
+		}
+		
+	})
+	
+	scrollTip()
+	window.onscroll = function(){
+		scrollTip()
+	}
+	function scrollTip(){
+		//获取滚动条距离
+		var scrollTop = document.body.scrollTop || document.documentElement.scrollTop
+		if (scrollTop >=20 ) {
+			$(".content").addClass("content-mid")
+		}else{
+			$(".content").removeClass("content-mid")
+		}
+	}
+</script>
